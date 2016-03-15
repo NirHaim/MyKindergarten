@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="הוספת ילד לגן"
+            android:id="@+id/tvHeader"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etFName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+        <TextView
+            android:id="@+id/tvFName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/fName"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etLName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+        <TextView
+            android:id="@+id/tvLName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/lName"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etContact1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+        <TextView
+            android:id="@+id/tvContact1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/Contact1"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etPhone1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:inputType="phone"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/Phone1"
+            android:id="@+id/tvPhone1"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etContact2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+        <TextView
+            android:id="@+id/tvContact2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/Contact2"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingBottom="5dp">
+
+        <EditText
+            android:id="@+id/etPhone2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:inputType="phone"/>
+        <TextView
+            android:id="@+id/tvPhone2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/Phone2"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AddToContacts"
+        android:id="@+id/cbAddToContacts"
+        android:layout_gravity="right"
+        android:checked="false"
+        android:button="@null"
+        android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="30dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/OK"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/bOk"
+            android:textSize="20sp"
+            android:background="#7d98e9"
+            android:alpha="1" />
+    </LinearLayout>
+
+</LinearLayout>

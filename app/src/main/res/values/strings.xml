@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">הגן שלי</string>
+    <string name="Header">Children</string>
+    <string name="AddChild">הוספת ילד</string>
+    <string name="DeleteChild">מחיקת ילד</string>
+    <string name="Presence">רישום נוכחות</string>
+    <string name="Graphs">דוחות</string>
+    <string name="MainHeader">תפריט ראשי</string>
+
+    <!-- Add Child activity-->
+    <string name="fName">שם פרטי:</string>
+    <string name="lName">שם משפחה:</string>
+    <string name="Contact1">איש קשר 1:</string>
+    <string name="Phone1">טלפון 1:</string>
+    <string name="Contact2">איש קשר 2:</string>
+    <string name="Phone2">טלפון 2:</string>
+    <string name="AddToContacts">הוסף לאנשי הקשר</string>
+    <string name="OK">אישור</string>
+
+    <!-- Delete Child activity
+    <string name="Name">שם:</string>
+    <string name="Contact1">איש קשר 1:</string>
+    <string name="Phone1">טלפון 1:</string>
+    <string name="Contact2">איש קשר 2:</string>
+    <string name="Phone2">טלפון 2:</string>-->
+
+    <!-- Presence_new activity-->
+    <string name="missing">כמות חסרים:</string>
+    <string name="present">כמות נוכחים:</string>
+
+    <!-- Delete activity-->
+    <string name="deleteHeader">סמני את הילדים שברצונך למחוק</string>
+
+
+</resources>
